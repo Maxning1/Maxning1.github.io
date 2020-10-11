@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html lang = en>
-    <head>
-        <meta charset = 'UTF-8'/>
-        <title> Max Ning </title>
-        <link rel='stylesheet' href='styles.css'/>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
-    </head>
+<head>
+    <meta charset = 'UTF-8'/>
+    <title>Max Ning </title>
+    <link rel='stylesheet' href='styles.css'/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+</head>
 
-    <body>
-        <div>
-            <h1><i>Max Ning</i></h1>
+<body>
+    <div>
+        <header><h1><i>Max Ning</i>
+        <div class = "links">
+            <li><a href="#" class="main-links">About    </a></li>
+            <li><a href="#" class="main-links">Blog</a></li>
+            <li><a href="#" class="main-links">Contacts</a></li>
         </div>
-        <div class = "topics">
-            
+        </h1></header>
+    </div>
+    <div class = "wall">
+
+        <div class = "wall-item">
+            <img src = "test1.jpg" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.</p>
+            <a href="#" class="blog-links">Read More</a>
         </div>
+        <div class = "wall-item">
+            <img src = "test2.jpeg" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse id lectus eu metus suscipit consectetur. 
+                Mauris nulla turpis, ultrices et sapien non, elementum 
+                lacinia libero.</p>
+        </div>
+        <div class = "wall-item">
+            <img src = "test3.png" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.</p>
+        </div>
+        <div class = "wall-item">
+            <img src = "test4.jpeg" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse id lectus eu metus suscipit consectetur. 
+                Mauris nulla turpis, ultrices et sapien non, elementum 
+                lacinia libero.</p>
+        </div>
+        <div class = "wall-item">
+            <img src = "test1.jpg" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.</p>
+        </div>
+        <div class = "wall-item">
+            <img src = "test2.jpeg" alt = "">
+            <h2>Lorem Ipsum s</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse id lectus eu metus suscipit consectetur. 
+                Mauris nulla turpis, ultrices et sapien non, elementum 
+                lacinia libero.</p>
+        </div>
+                
+        </div>
+    </div>
+    <script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src = "jaliswall.js"></script>
+    <script type = "text/javascript">
+        $('.wall').jaliswall({
+            item:'.wall-item',
+            columnClass: '.wall-column'
+            });
+    </script>
     </body>
 </html>
