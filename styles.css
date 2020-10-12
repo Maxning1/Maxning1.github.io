@@ -72,7 +72,8 @@ a {
 }
   
 .wall {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
 }
   
