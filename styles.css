@@ -1,14 +1,9 @@
 body {
     margin: 24px;
     padding: 0;
-    background: lightgrey;
+    background: #C1C1C1;
     color: black;
 }
-.links{
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
 }
 .blog-links {
     text-align: center;
@@ -27,9 +22,20 @@ h1 {
     position: relative;
     font-family: 'Amiko', sans-serif;
     color: black;
-    margin: 24px;
-    font-size: 80px;
-    padding: 0px 0px 0px 0px;
+    margin: 12px;
+}
+.links{
+    position: relative;
+    font-size: 20px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 24px;
+}
+.main-links {
+    display: block;
+    font-family: 'Amiko', sans-serif;
+    padding-right: 30px;
 }
 h2{
     font-family: 'Amiko', sans-serif;
@@ -54,7 +60,7 @@ a {
     display: block;
     margin: 0 0 30px 0;
     padding: 12px;
-    background: white;
+    background: #E6ECE8;
     border-radius: 3px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
     transition: all 220ms;
@@ -101,5 +107,8 @@ a {
     .wall-column {
         width: auto;
         float: none;
+    }
+    .main-links {
+        font-size: 15px;
     }
 }
