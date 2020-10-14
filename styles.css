@@ -27,7 +27,7 @@ h1 {
     color: black;
     margin: 12px;
 }
-.links{
+.main-links-container {
     position: relative;
     font-size: 20px;
     top: 10%;
@@ -102,10 +102,28 @@ a {
     box-sizing: border-box;
 }
 @media (min-width: 800px) {
-
+    h1 {
+        display: inline-flex;
+        position: relative;
+        font-family: 'Bahnscrift', sans-serif;
+        color: black;
+        margin: 12px;
+    }
+    .main-links-container {
+        position: relative;
+        font-size: 20px;
+        transform: translateX(-80%) translateY(40%);
+        margin-top: 24px;
+    }
 }
 @media (max-width: 640px) {
-  
+    h1 {
+        display: inline-block;
+        position: relative;
+        font-family: 'Bahnscrift', sans-serif;
+        color: black;
+        margin: 12px;
+    }
     .wall-column { width: 50%; }
     }
 @media (max-width: 480px) {
