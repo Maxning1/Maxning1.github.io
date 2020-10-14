@@ -7,7 +7,10 @@ body {
 }
 .blog-links {
     text-align: center;
-
+}
+.logo{
+    height: 100px;
+    width: 300px;
 }
 li{
     display: inline-block;
@@ -20,7 +23,7 @@ li a {
 }
 h1 {
     position: relative;
-    font-family: 'Amiko', sans-serif;
+    font-family: 'Bahnscrift', sans-serif;
     color: black;
     margin: 12px;
 }
@@ -97,6 +100,9 @@ a {
     float: left;
     padding: 0 12px;
     box-sizing: border-box;
+}
+@media (min-width: 800px) {
+
 }
 @media (max-width: 640px) {
   
