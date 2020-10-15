@@ -137,4 +137,10 @@ a {
     .main-links {
         font-size: 15px;
     }
+    .wall-item h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 10px;
+    }
 }
