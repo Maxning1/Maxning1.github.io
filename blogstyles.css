@@ -38,7 +38,7 @@ h1 {
     display: block;
     font-family: 'Amiko', sans-serif;
     padding-right: 30px;
-}}
+}
 .main-links::after{
     content: '';
     display: block;
