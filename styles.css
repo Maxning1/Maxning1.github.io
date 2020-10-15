@@ -51,6 +51,18 @@ h1 {
     width: 100%;
     transition: width .3s;
 }
+.logo-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+.logo-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
 h2{
     font-family: 'Amiko', sans-serif;
     color: black;
