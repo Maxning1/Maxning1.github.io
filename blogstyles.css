@@ -90,8 +90,10 @@ a {
   
 .wall-item > img {
     display: block;
-    width: 100%;
+    width: 50%;
     margin: 0 0 24px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wall-item h2 {
     text-align: center;
@@ -113,6 +115,13 @@ a {
     float: left;
     padding: 0 12px;
     box-sizing: border-box;
+}
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%
 }
 @media (min-width: 800px) {
     h1 {
