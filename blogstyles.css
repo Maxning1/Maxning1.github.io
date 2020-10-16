@@ -103,6 +103,7 @@ a {
 .wall-item p {
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 25px;
 }  
 .wall {
     display: flex;
@@ -141,6 +142,14 @@ a {
         margin-top: 24px;
     }
 }
+@media (max-width: 799px){
+    .wall-item p {
+        font-size: 15px;
+    }
+    .wall-item h2 {
+        font-size: 25px;
+    }
+}
 @media (max-width: 640px) {
     h1 {
         display: inline-block;
@@ -150,10 +159,6 @@ a {
         margin: 12px;
     }
     .wall-column { width: 50%; }
-    .wall-item h2 {
-        font-size: 25px;
-    }
-
 @media (max-width: 480px) {
 
     .wall-column {
@@ -166,7 +171,7 @@ a {
     .wall-item h2 {
         font-size: 25px;
     }
-    p {
+    .wall-item p {
         font-size: 10px;
     }
 }
