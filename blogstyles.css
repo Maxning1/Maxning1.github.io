@@ -147,7 +147,10 @@ a {
         margin: 12px;
     }
     .wall-column { width: 50%; }
+    .wall-item h2 {
+        font-size: 25px;
     }
+
 @media (max-width: 480px) {
 
     .wall-column {
