@@ -100,7 +100,10 @@ a {
     font-size: 50px;
     margin: 0 0 12px 0;
 }
-  
+.wall-item p {
+    margin-left: 10px;
+    margin-right: 10px;
+}  
 .wall {
     display: flex;
     flex-wrap: wrap;

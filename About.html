@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+    <meta charset = 'UTF-8'/>
+    <title>Max Ning</title>
+    <link rel='stylesheet' href='blogstyles.css'/>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@600&family=Cormorant+Garamond&family=Poppins&display=swap" rel="stylesheet">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>
+                <a href= "index.html" style="display:block">
+                    <object type = "image/svg+xml" data = "maxlg1.2.svg" class = "logo" style = "pointer-events: none;"></object>
+                </a>
+                    <div class = "main-links-container">
+
+                        <li><a href="#" class="main-links">About    </a></li>
+                        <li><a href="#" class="main-links">Archive</a></li>
+                        <li><a href="#" class="main-links">Contacts</a></li>
+                    </div>
+        </h1></header>
+    </div>
+    <div class = "wall">
+        <div class = "wall-item">
+            <object type = "image/svg+xml" data = "MeCool2.svg" class = "profile-pic"></object>
+            <h2>Hi! I'm Max Ning</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Suspendisse id lectus eu metus suscipit consectetur. 
+                 Mauris nulla turpis, ultrices et sapien non, elementum 
+                 lacinia libero.</p>
+        </div>
+    </div>
+    <script src = "jquery-3.5.1.min.js"></script>
+    <script src = "jaliswall.js"></script>
+    <script type = "text/javascript">
+        $('.wall').jaliswall({
+            item:'.wall-item',
+            columnClass: '.wall-column'
+            });
+    </script>
+    </body>
+</html>
