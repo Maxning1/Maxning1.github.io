@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+    <meta charset = 'UTF-8'/>
+    <title>Max Ning Contacts Page</title>
+    <link rel='stylesheet' href='blogstyles.css'/>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@600&family=Cormorant+Garamond&family=Poppins&display=swap" rel="stylesheet">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>
+                <a href= "index.html" style="display:block" class = "logo-link">
+                    <object type = "image/svg+xml" data = "img/maxlg1.2.svg" class = "logo" style = "pointer-events: none;"></object>
+                </a>
+                    <div class = "main-links-container">
+
+                        <li><a href="About.html" class="main-links">About</a></li>
+                        <li><a href="#" class="main-links">Archive</a></li>
+                        <li><a href="Contacts.html" class="main-links">Contacts</a></li>
+                    </div>
+        </h1></header>
+    </div>
+    <div class = "wall">
+        <div class = "wall-item">
+            <h2>Contacts</h2>
+            <p>I'm always down to chat! You can connect with me via:</p>
+            <p>Github: 
+                <a href="https://github.com/Maxning1" class="contacts-links">Maxning1</a>
+            </p>
+            <p>LinkedIn: 
+                <a href="https://www.linkedin.com/in/max-ning-954314200/"class="contacts-links">Max Ning</a>
+            </p>
+            <p>Email: 
+                <a href="" class="contacts-links">maxning24@gmail.com</a>
+            </p>
+            <p>Instagram: 
+                <a href="https://www.instagram.com/maxning._/" class="contacts-links">maxning._</a>
+            </p>
+        </div>
+    </div>
+    <script src = "jquery-3.5.1.min.js"></script>
+    <script src = "jaliswall.js"></script>
+    <script type = "text/javascript">
+        $('.wall').jaliswall({
+            item:'.wall-item',
+            columnClass: '.wall-column'
+            });
+    </script>
+    </body>
+</html>
