@@ -160,10 +160,6 @@ a {
     }
 }
 @media (max-width: 799px){
-    .wall-column {
-        width: auto;
-        float: none;
-    }
     .wall-item p {
         font-size: 15px;
     }
@@ -181,10 +177,6 @@ a {
         font-family: 'Bahnscrift', sans-serif;
         color: black;
         margin: 12px;
-    }
-    .wall-column {
-        width: auto;
-        float: none;
     }
 @media (max-width: 480px) {
     .wall-column {
