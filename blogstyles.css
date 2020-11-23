@@ -170,6 +170,9 @@ a {
     .wall-item h2 {
         font-size: 25px;
     }
+    .contacts-links {
+        font-size: 15px;
+    }
 }
 @media (max-width: 640px) {
     h1 {
@@ -193,6 +196,9 @@ a {
         font-size: 25px;
     }
     .wall-item p {
+        font-size: 10px;
+    }
+    .contacts-links {
         font-size: 10px;
     }
 }
