@@ -52,8 +52,6 @@ h1 {
     transition: width .3s;
 }
 .contacts-links {
-    text-align: center;
-    display: inline-flexbox;
     font-family: 'Amiko', sans-serif;
     color: black;
     font-weight: 300;
@@ -183,7 +181,6 @@ a {
         margin: 12px;
     }
 @media (max-width: 480px) {
-
     .wall-column {
         width: auto;
         float: none;
