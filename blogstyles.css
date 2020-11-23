@@ -182,7 +182,6 @@ a {
         color: black;
         margin: 12px;
     }
-    .wall-column { width: 50%; }
 @media (max-width: 480px) {
 
     .wall-column {
