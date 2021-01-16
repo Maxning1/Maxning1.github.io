@@ -180,6 +180,8 @@ a {
         color: black;
         margin: 12px;
     }
+    .wall-column { width: 50%; }
+    }
 @media (max-width: 480px) {
     .wall-column {
         width: auto;
@@ -196,5 +198,18 @@ a {
     }
     .contacts-links {
         font-size: 10px;
+    }
+    .main-links {
+        font-size: 15px;
+    }
+}
+@media (max-width: 350px) {
+    .main-links {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .logo{
+        height: 75px;
+        width: 200px;
     }
 }
